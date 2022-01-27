@@ -16,8 +16,16 @@ User.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
+    first_name: {
       type: DataTypes.STRING,
+      allowNull: false,
+    },
+    last_name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    date_of_birth: {
+      type: DataTypes.DATE,
       allowNull: false,
     },
     email: {
@@ -27,6 +35,10 @@ User.init(
       validate: {
         isEmail: true,
       },
+      is_active: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: false,
+      }
     },
     password: {
       type: DataTypes.STRING,

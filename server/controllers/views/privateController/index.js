@@ -4,7 +4,10 @@ const renderBlogPage = (req, res) => { }
 
 const renderCreateBlogPage = (req, res) => { }
 
+const renderProfilePage = (req, res) => { }
+
 module.export = {
     renderBlogPage,
-    renderCreateBlogPage
+    renderCreateBlogPage,
+    renderProfilePage
 }
