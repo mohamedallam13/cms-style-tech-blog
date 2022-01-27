@@ -15,6 +15,16 @@ Comment.init(
       type: DataTypes.STRING,
       allowNull: false
     },
+    up_votes: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      defaultValue: 0
+    },
+    down_votes: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      defaultValue: 0
+    },
     date_created: {
       type: DataTypes.DATE,
       allowNull: false,
