@@ -19,7 +19,6 @@ router.get("/:id", getOneBlog);
 // Get All User Blogs - GET request
 router.get("/:userId", getAllUserBlogs);
 
-
 // Add Blog - POST request
 router.post("/", addBlog);
 

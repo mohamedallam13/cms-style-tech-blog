@@ -1,7 +1,7 @@
 const { Router } = require("express")
 
 const api = require("./api");
-const view = require("./view");
+const view = require("./views");
 
 const router = Router();
 

@@ -1,5 +1,4 @@
 const { Router } = require("express");
-const auth = require("")
 
 const privateRoutes = require("./privateRoutes");
 const publicRoutes = require("./publicRoutes");

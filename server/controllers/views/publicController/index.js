@@ -1,13 +1,19 @@
-const { Blog, Comments } = require("../../../../models/Blog")
+// const { Blog, Comments } = require("../../../../models/Blog")
 
 
-const renderLoginPage = (req, res) => { }
+const renderLoginPage = (req, res) => { 
+    res.render("login");
+}
 
-const rendersignUpPage = (req, res) => { }
+const rendersignUpPage = (req, res) => {
+    res.render("signUp");
+}
 
-const renderHomePage = (req, res) => { }
+const renderHomePage = (req, res) => { 
+    res.render("homepage");
+}
 
-module.export = {
+module.exports = {
     renderLoginPage,
     rendersignUpPage,
     renderHomePage
